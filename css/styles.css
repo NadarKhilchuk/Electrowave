@@ -1,0 +1,1500 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E;
+    color: #FFD700;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+html { 
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+a {
+    text-decoration: none;
+}
+  
+  .header-pl {
+    color: #FFD700;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header-pl-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  .header-pl-logo {
+    display: flex;
+align-items: center;
+  }
+  .header-pl-image {
+   display: flex;
+   align-items: center;
+   max-width: 50px;
+   max-height: 50px;
+  }
+  
+  .header-pl-logotyp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+ display: flex;
+ align-items: center;
+  }
+  .header-pl-tablet {
+        display: flex;
+  }
+  .header-pl-navigation {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    align-items: center;
+font-weight: 600;
+  }
+  .header-pl-link {
+    color: #FFD700;
+    font-size: 18px;
+  }
+ 
+  
+  .header-pl-list-language {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-pl-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+.header-pl-item {
+    display: flex;
+    gap: 5px;
+}
+.header-pl-pl {
+    color: #FFD700;
+    text-decoration: underline;
+}
+.header-pl-ua {
+    color: #FFD700;
+}
+.header-pl-ang {
+    color: #FFD700;
+}
+.header-pl-pl,
+.header-pl-ua,
+.header-pl-ang {
+    transition: color 0.5s ease;
+}
+
+.header-pl-pl:hover ,
+.header-pl-ua:hover ,
+.header-pl-ang:hover  {
+color: #4619d0;
+}
+  /* 3. Стили для раздела "start-pl" */
+  .start-pl {
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .start-pl-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  .start-pl-boss-text {
+ font-weight: 600;
+  }
+  .start-pl-photo {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 4. Стили для раздела "overlord-pl" */
+  .overlord-pl {
+    padding: 40px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .overlord-pl-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aqua;
+  }
+  
+  .overlord-pl-description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .overlord-pl-h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #009a3e;
+  }
+
+
+  .overlord-pl-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .overlord-pl-item {
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlord-pl-photo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 150px;
+  }
+  
+  .overlord-pl-overlay-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #1E1E1E;
+  }
+  
+  .overlord-pl-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0;
+    background-color: #2e1382;
+    transition: opacity 0.3s ease;
+   
+  }
+  
+  .overlord-pl-overlay-block:hover .overlord-pl-overlay {
+    opacity: 1;
+    border-radius: 7px;
+  }
+  
+  /* 5. Стили для раздела "dragon-pl" */
+  .dragon-pl {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px 0;
+    background-color: #505660;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .dragon-pl-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dragon-pl-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .dragon-pl-text {
+    font-size: 1.1rem;
+    flex: 1;
+  }
+  
+  .dragon-pl-photo {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 6. Стили для раздела "hero-pl" */
+  .hero-pl {
+    padding: 40px 0;
+  }
+  
+  .hero-pl-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8c7ac7;
+  }
+  
+  .hero-pl-description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+  }
+  
+  .hero-pl-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .hero-pl-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-pl-text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #7ab6f3;
+    font-weight: 600;
+  }
+  .hero-pl-block-text {
+  color: aliceblue;
+  }
+  .hero-pl-text-big {
+    font-weight: bold;
+    margin-bottom: 5px;
+  
+  }
+  
+
+  .hydra-pl {
+display: flex;
+justify-content: center;
+}
+.hydra-pl-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Расстояние между видео и текстом */
+    margin: 20px;
+}
+.hydra-pl-video {
+    width: 200px; /* Ширина видео */
+    height: auto; /* Высота автоматически подстраивается */
+    border-radius: 10px;
+}
+.hydra-pl-text {
+font-weight: 590;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  /* 7. Стили для раздела "sponsors-pl" */
+  .sponsors-pl {
+    padding: 40px 0;
+    color: #fff;
+  }
+  
+  .sponsors-pl-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sponsors-pl-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .sponsors-pl-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sponsors-pl-image img {
+    /* border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px; */
+  }
+  
+.sponsors-pl-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+  
+  .sponsors-pl-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .sponsors-pl-text a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+.sponsors-pl-block-social {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.sponsors-pl-logotyp {
+    width: 50px;
+    height: 50px;
+  
+}
+.logotyp-tt {
+    width: 120px;
+    height: 60px;
+}
+.sponsors-pl-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+  /* 8. Стили для подвала (footer) */
+  .footer-pl {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-pl p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+
+
+
+
+  .header-ua {
+    color: #FFD700;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-ua-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-ua-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-ua-image {
+    display: flex;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header-ua-logotyp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.header-ua-tablet {
+    display: flex;
+}
+.header-ua-navigation {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    align-items: center;
+font-weight: 600;
+}
+
+.header-ua-link {
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.header-ua-list-language {
+    display: flex;
+    gap: 10px;
+}
+
+.header-ua-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.header-ua-item {
+    display: flex;
+    gap: 5px;
+}
+
+.header-ua-ua {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+.header-ua-pl {
+    color: #FFD700;
+}
+
+.header-ua-ang {
+    color: #FFD700;
+}
+
+.header-ua-ua,
+.header-ua-pl,
+.header-ua-ang {
+    transition: color 0.5s ease;
+}
+
+.header-ua-ua:hover,
+.header-ua-pl:hover,
+.header-ua-ang:hover {
+    color: #4619d0;
+}
+
+.start-ua {
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start-ua-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.start-ua-boss-text {
+    font-weight: 600;
+}
+
+.start-ua-photo {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlord-ua {
+    padding: 40px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.overlord-ua-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.overlord-ua-description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.overlord-ua-h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #009a3e;
+}
+
+.overlord-ua-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.overlord-ua-item {
+    border-radius: 10px;
+    padding: 20px;
+    width: 275px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlord-ua-photo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 150px;
+}
+
+.overlord-ua-overlay-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #1E1E1E;
+}
+
+.overlord-ua-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: #2e1382;
+    transition: opacity 0.3s ease;
+}
+
+.overlord-ua-overlay-block:hover .overlord-ua-overlay {
+    opacity: 1;
+    border-radius: 7px;
+}
+
+.dragon-ua {
+    padding: 40px 0;
+    background-color: #505660;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dragon-ua-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dragon-ua-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dragon-ua-text {
+    font-size: 1.1rem;
+    flex: 1;
+}
+
+.dragon-ua-photo {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-ua {
+    padding: 40px 0;
+}
+
+.hero-ua-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8c7ac7;
+}
+
+.hero-ua-description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-ua-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-ua-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-ua-text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #7ab6f3;
+    font-weight: 600;
+}
+
+.hero-ua-block-text {
+    color: aliceblue;
+}
+
+.hero-ua-text-big {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hydra-ua {
+    display: flex;
+    justify-content: center;
+    }
+    .hydra-ua-container {
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Расстояние между видео и текстом */
+        margin: 20px;
+    }
+    .hydra-ua-video {
+        width: 200px; /* Ширина видео */
+        height: auto; /* Высота автоматически подстраивается */
+        border-radius: 10px;
+    }
+    .hydra-ua-text {
+    font-weight: 590;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+.sponsors-ua {
+    padding: 40px 0;
+    color: #fff;
+}
+
+.sponsors-ua-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsors-ua-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sponsors-ua-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sponsors-ua-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.sponsors-ua-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.sponsors-ua-text a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sponsors-ua-block-social {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.sponsors-ua-logotyp {
+    width: 50px;
+    height: 50px;
+}
+
+.logotyp-tt {
+    width: 120px;
+    height: 60px;
+}
+
+.sponsors-ua-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+.footer-ua {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-ua p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-en {
+    color: #FFD700;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-en-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-en-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-en-image {
+    display: flex;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header-en-logotyp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.header-en-tablet {
+display: flex;
+
+}
+.header-en-navigation {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    align-items: center;
+font-weight: 600;
+}
+
+.header-en-link {
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.header-en-list-language {
+    display: flex;
+    gap: 10px;
+}
+
+.header-en-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.header-en-item {
+    display: flex;
+    gap: 5px;
+}
+
+.header-en-ang {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+.header-en-ua {
+    color: #FFD700;
+}
+
+.header-en-pl {
+    color: #FFD700;
+}
+
+.header-en-ang,
+.header-en-ua,
+.header-en-pl {
+    transition: color 0.5s ease;
+}
+
+.header-en-ang:hover,
+.header-en-ua:hover,
+.header-en-pl:hover {
+    color: #4619d0;
+}
+
+.start-en {
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start-en-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.start-en-boss-text {
+    font-weight: 600;
+}
+
+.start-en-photo {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlord-en {
+    padding: 40px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.overlord-en-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.overlord-en-description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.overlord-en-h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #009a3e;
+}
+
+.overlord-en-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.overlord-en-item {
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlord-en-photo {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 150px;
+}
+
+.overlord-en-overlay-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #1E1E1E;
+}
+
+.overlord-en-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: #2e1382;
+    transition: opacity 0.3s ease;
+}
+
+.overlord-en-overlay-block:hover .overlord-en-overlay {
+    opacity: 1;
+    border-radius: 7px;
+}
+
+.dragon-en {
+    padding: 40px 0;
+    background-color: #505660;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dragon-en-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dragon-en-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dragon-en-text {
+    font-size: 1.1rem;
+    flex: 1;
+}
+
+.dragon-en-photo {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-en {
+    padding: 40px 0;
+}
+
+.hero-en-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8c7ac7;
+}
+
+.hero-en-description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-en-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-en-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-en-text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #7ab6f3;
+    font-weight: 600;
+}
+
+.hero-en-block-text {
+    color: aliceblue;
+}
+
+.hero-en-text-big {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+.hydra-en {
+    display: flex;
+    justify-content: center;
+    }
+    .hydra-en-container {
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Расстояние между видео и текстом */
+        margin: 20px;
+    }
+    .hydra-en-video {
+        width: 200px; /* Ширина видео */
+        height: auto; /* Высота автоматически подстраивается */
+        border-radius: 10px;
+    }
+    .hydra-en-text {
+    font-weight: 590;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+.sponsors-en {
+    padding: 40px 0;
+    color: #fff;
+}
+
+.sponsors-en-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsors-en-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sponsors-en-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sponsors-en-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.sponsors-en-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.sponsors-en-text a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sponsors-en-block-social {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.sponsors-en-logotyp {
+    width: 50px;
+    height: 50px;
+}
+
+.logotyp-tt {
+    width: 120px;
+    height: 60px;
+}
+
+.sponsors-en-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+.footer-en {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-en p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+/* Медиазапросы для планшетов (ширина экрана до 1024px) */
+@media (max-width: 1024px) {
+    .header-pl-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-pl-navigation {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-pl-list {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .overlord-pl-item {
+        width: 45%;
+    }
+    .dragon-pl-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dragon-pl-photo {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .hero-pl-item {
+        width: 100%;
+    }
+
+    .sponsors-pl-item {
+        width: 45%;
+    }
+}
+
+/* Медиазапросы для телефонов (ширина экрана до 768px) */
+@media (max-width: 768px) {
+    .header-pl-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-pl-navigation {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-pl-list {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .overlord-pl-item {
+        width: 275px;
+    }
+
+    .dragon-pl-block {
+        flex-direction: column;
+        text-align: center;
+    }
+.overlord-pl-photo {
+   width: 370px;
+   height: 150px; 
+}
+    .dragon-pl-photo {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .hero-pl-item {
+        width: 100%;
+    }
+
+    .sponsors-pl-item {
+        width: 100%;
+    }
+
+    .sponsors-pl-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors-pl-item {
+        width: 80%;
+    }
+
+    .footer-pl {
+        padding: 10px 0;
+    }
+
+    .footer-pl p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Медиазапросы для очень маленьких экранов (ширина экрана до 480px) */
+@media (max-width: 480px) {
+    .header-pl-logotyp {
+        font-size: 1.2rem;
+    }
+
+    .header-pl-link {
+        font-size: 16px;
+    }
+
+    .start-pl-text {
+        font-size: 1rem;
+    }
+
+    .overlord-pl-title {
+        font-size: 1.5rem;
+    }
+
+    .overlord-pl-description {
+        font-size: 1rem;
+    }
+
+    .overlord-pl-h4 {
+        font-size: 18px;
+    }
+
+    .dragon-pl-title {
+        font-size: 1.5rem;
+    }
+
+    .dragon-pl-text {
+        font-size: 1rem;
+    }
+
+    .hero-pl-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-pl-description {
+        font-size: 1rem;
+    }
+
+    .hero-pl-text {
+        font-size: 1rem;
+    }
+
+    .sponsors-pl-title {
+        font-size: 1.5rem;
+    }
+
+    .sponsors-pl-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-pl p {
+        font-size: 0.8rem;
+    }
+
+    .hydra-pl-video {
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+
+
+
+    .header-pl-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .header-en-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .header-ua-tablet {
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-ua-navigation {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-ua-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-en-tablet {
+        width: 100%;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+     .header-en-navigation {
+         display: flex;
+         flex-direction: column;
+     }
+     
+     .header-en-list {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+     }
+
+
+
+}
+
+
+@media (min-width: 769px) { 
+    .header-pl-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .header-ua-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .header-en-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+}
+
+
+@media (max-width: 768px) { 
+.header-ua {
+}
+.header-ua-container {
+    display: flex;
+    flex-direction: column;
+}
+.header-en-container {
+    display: flex;
+    flex-direction: column;
+}
+    .header-pl-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .header-en-tablet {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .header-ua-tablet {
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header-ua-navigation {
+        display: flex;
+        flex-direction: row;
+       padding-left: 10px;
+        font-size: 13px;
+        gap: 10px;
+    }
+    
+    .header-ua-list {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-left: 120px;
+    }
+    .header-en-tablet {
+        width: 100%;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+     .header-en-navigation {
+        display: flex;
+        flex-direction: row;
+       padding-left: 10px;
+        font-size: 13px;
+        gap: 10px;
+     }
+     
+     .header-en-list {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-left: 120px;
+     }
+
+    .overlord-pl-photo {
+        border-radius: 10px;
+        width: 370px;
+        height: 150px;
+    }
+    .overlord-ua-photo {
+        border-radius: 10px;
+        width: 370px;
+        height: 150px;
+    }
+    .overlord-en-photo {
+        border-radius: 10px;
+        width: 420px;
+        height: 150px;
+    }
+
+.dragon-ua-block {
+    display: flex;
+    flex-direction: column;
+}
+.dragon-en-block {
+    display: flex;
+    flex-direction: column;
+}
+.dragon-pl-block {
+    display: flex;
+    flex-direction: column;
+}
+}
