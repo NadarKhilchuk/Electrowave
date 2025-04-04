@@ -79,6 +79,7 @@ font-weight: 600;
     align-items: center;
     font-size: 21px;
     font-weight: 600;
+	  padding-left: 30px;
 }
 .header-pl-item {
     display: flex;
@@ -453,6 +454,7 @@ font-weight: 600;
     align-items: center;
     font-size: 21px;
     font-weight: 600;
+	padding-left: 30px;
 }
 
 .header-ua-item {
@@ -844,6 +846,7 @@ font-weight: 600;
     align-items: center;
     font-size: 21px;
     font-weight: 600;
+	padding-left: 30px;
 }
 
 .header-en-item {
