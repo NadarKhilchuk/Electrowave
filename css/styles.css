@@ -300,6 +300,7 @@ justify-content: center;
 .hydra-pl-text {
 font-weight: 590;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+max-width: 700px;
 }
 
   /* 7. Стили для раздела "sponsors-pl" */
@@ -673,6 +674,7 @@ font-weight: 600;
     .hydra-ua-text {
     font-weight: 590;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   max-width: 700px;
     }
 
 
@@ -1065,6 +1067,7 @@ font-weight: 600;
     .hydra-en-text {
     font-weight: 590;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   max-width: 700px;
     }
 
 
@@ -1393,7 +1396,6 @@ font-weight: 600;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 100px;
     }
 }
 
