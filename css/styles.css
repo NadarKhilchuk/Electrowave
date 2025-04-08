@@ -1423,6 +1423,7 @@ font-weight: 600;
         display: flex;
         align-items: center;
         justify-content: space-between;
+	        padding-left: 150px;
 }
     .header-en-tablet {
         width: 100%;
@@ -1431,6 +1432,7 @@ font-weight: 600;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+	            padding-left: 150px;
     }
     .header-ua-tablet {
        width: 100%;
@@ -1439,6 +1441,7 @@ font-weight: 600;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+	            padding-left: 150px;
     }
 
     .header-ua-navigation {
