@@ -65,8 +65,11 @@ font-weight: 600;
   .header-pl-link {
     color: #FFD700;
     font-size: 18px;
+	  transition: all 1s ease-out;
   }
- 
+ .header-pl-link:hover {
+	color: #0fd97b; 
+ }
   
   .header-pl-list-language {
     display: flex;
@@ -441,7 +444,11 @@ font-weight: 600;
 .header-ua-link {
     color: #FFD700;
     font-size: 18px;
-}
+	  transition: all 1s ease-out;
+  }
+ .header-pl-link:hover {
+	color: #0fd97b; 
+ }
 
 .header-ua-list-language {
     display: flex;
@@ -833,7 +840,11 @@ font-weight: 600;
 .header-en-link {
     color: #FFD700;
     font-size: 18px;
-}
+	  transition: all 1s ease-out;
+  }
+ .header-pl-link:hover {
+	color: #0fd97b; 
+ }
 
 .header-en-list-language {
     display: flex;
